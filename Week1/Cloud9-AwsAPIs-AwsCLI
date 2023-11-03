@@ -1,0 +1,4 @@
+AWS APIs
+Everything in AWS is an API call and every AWS Service has its own set of APIs that you interact with. When you send HTTP requests to AWS, you sign the requests so that AWS can identify who sent them. You sign requests with your AWS access key, which consists of an access key ID and secret access key. You need to sign HTTP requests only when you manually create them. When you use the AWS Command Line Interface (AWS CLI) or one of the AWS SDKs to send requests to AWS, these tools automatically sign the requests for you with the access key that you specify when you configure the tools. When you use these tools, you don't need to learn how to sign requests yourself.
+
+To read about how requests need to be signed, click here: https://docs.aws.amazon.com/general/latest/gr/signing_aws_api_requests.html
