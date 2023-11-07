@@ -53,7 +53,7 @@ API Gateway REST APIs use a request/response model where a client sends a reques
 
 API Gateway REST APIs have multiple configurable pieces:
 
-![alt text]([http://url/to/img.png](https://github.com/htlee8899/cloud-provider/blob/main/Week2/image_API_Gateway.png))
+![alt text](https://github.com/htlee8899/cloud-provider/blob/main/Week2/image_API_Gateway.png)
 
 The diagram above shows what steps a client call makes to the API to access backend resources. A Method resource is integrated with an Integration resource. Both consist of a request and one or more responses. The method request takes the client input, and optionally validates it if configured - either against JSON Schema models or it checks the required request parameters in the URI, query string, and headers of an incoming request are included and non-blank.
 
