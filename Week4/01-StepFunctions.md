@@ -26,3 +26,6 @@ States can perform a variety of functions in your state machine:
 
 Any state type other than the Fail type have the full control over the input and the output. You can control those using the “InputPath”, “ResultPath” and “OutputPath”. **A path is a string beginning with $ that you can use to identify components within JSON text.** Using the “InputPath”, you can determine which portion of the data sent as an input to the state to send into the processing of that state. For example, that could be a Lambda function. Then, you can insert the result from that Lambda function in a node inside of the input. This is useful when you want to be able to keep the data from the input as well as the result of Lambda function without having to do it within the code of the Lambda. Thus, keeping your flow separate from the Lambda microservice. Finally, you can apply another filter from that combination of data by using an “OutputPath” to decide which node you want to keep. You can find an example of how these three works together here: https://docs.aws.amazon.com/step-functions/latest/dg/input-output-example.html
 
+# Sample Projects
+
+There are many sample projects provided through the AWS Documentation which you can find here: https://docs.aws.amazon.com/step-functions/latest/dg/create-sample-projects.html
